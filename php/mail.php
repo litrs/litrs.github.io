@@ -12,7 +12,7 @@ if (!empty($_POST)){
   $emailTo ="info@webstudijaa.com"; //"yourmail@yoursite.com";
 
   //from email adress
-  $emailFrom ="info@webstudijaa.com"; //"contact@yoursite.com";
+  $emailFrom ="zeme33@inbox.lv"; //"contact@yoursite.com";
 
   //email subject
   $emailSubject = "Mail from Web Studija A";
@@ -46,4 +46,3 @@ if (!empty($_POST)){
   echo json_encode($data);
 }
 }
-/>
