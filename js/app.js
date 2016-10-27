@@ -374,7 +374,6 @@ $("#send-mail").click(function () {
 });
 
 //Initialize google map for contact setion with your location.
-key=AIzaSyCp5t6X48xLeCVeL-rfMoqwYg0Q7JbRiIw
 
 function initializeMap() {
 
@@ -390,6 +389,7 @@ function initializeMap() {
         center: new google.maps.LatLng(lat, centerLon),
         zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
+		
     };
 
     //Bind map to elemet with id map-canvas
