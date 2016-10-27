@@ -189,7 +189,7 @@
     });
 
     /*
-Sand mail
+Send mail
 **********************************************************************/
 $("#send-mail").click(function () {
 
@@ -374,6 +374,7 @@ $("#send-mail").click(function () {
 });
 
 //Initialize google map for contact setion with your location.
+key=AIzaSyCp5t6X48xLeCVeL-rfMoqwYg0Q7JbRiIw
 
 function initializeMap() {
 
@@ -400,7 +401,7 @@ function initializeMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: "Your content goes here!"
+        content: "Sētas iela 1,Rīga"
     });
 
     google.maps.event.addListener(marker, 'click', function () {

@@ -690,7 +690,7 @@ p {
     background: #FECE1A;
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
-    color: #181A1C;
+    color: #fff;
 }
 .contact textarea, .contact input[type="text"], .contact input[type="email"] {
     padding: 10px;
