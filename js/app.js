@@ -406,7 +406,7 @@ function initializeMap() {
 
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
-		
+$(document).bind("projectLoadComplete", initialize);
     });
 
     infowindow.open(map, marker);
